@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: floralwhite;
+}
+
+h1 {
+
+    text-align: center;
+    background-color: darkslategray;
+
+    color: white;
+}
+
+h2 {
+
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+}
+
+h3 {
+
+    text-align: center;
+    background-color: darkslategray;
+
+    color: white;
+}
+
+.self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.hback {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: dimgray;
+    overflow-x: hidden;
+}
+
+
+
+/* Side navigation links */
+.sidenav a {
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: goldenrod;
+    color: white;
+}
+
+.sidenav a:visited {
+    background-color: cadetblue;
+    color: white;
+}
+
+
+a:link {
+    color: black;
+    background-color: White;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: White;
+    background-color: w;
+    text-decoration: underline;
+}
+
+a:active {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
